@@ -1,0 +1,2 @@
+SELECT emp_name, salary FROM Employee 
+WHERE emp_age BETWEEN 20 AND 30;

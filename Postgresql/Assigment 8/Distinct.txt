@@ -1,0 +1,1 @@
+SELECT DISTINCT course_type, dept FROM Student_type;

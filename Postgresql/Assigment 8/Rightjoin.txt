@@ -1,0 +1,3 @@
+SELECT S.name, s.phone, st.course_type
+FROM Students s RIGHT JOIN Student_type st
+ON s.Roll = st.type_id;

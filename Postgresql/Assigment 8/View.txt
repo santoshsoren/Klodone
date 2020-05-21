@@ -1,0 +1,4 @@
+CREATE VIEW em
+AS
+SELECT * FROM Employee
+WHERE salary>35000;

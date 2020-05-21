@@ -1,0 +1,3 @@
+SELECT name, college FROM Students
+UNION
+SELECT course_type, dept FROM Student_type;

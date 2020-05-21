@@ -1,0 +1,165 @@
+INTERVIEW QUESTION OF SPRING
+
+BASIC LEVEL
+Q1)  What is Spring Core?
+Q2) How IOC container will create Object for Private constructor classes?
+Q3)  What is the purpose of BeanFactoryPostProcessor?
+Q4) In SpringBeanConfiguration file for the same class 2 beans are there with different Bean names.Some other bean used Autowire ByType How we will replicate?
+Q5) What are all the AOP advices used in Spring Transaction internally?
+Q6) How many AOP implementations Spring support? Why?
+Q7) One-to-many relationship how we will map objects in Spring JDBC?
+Q8) What is RowMapper? For which sake we will use RowMapper?
+Q9) What are all the annotations used in inside of @SpringBootApplication annotation?
+Q10) What is CLI in SpringBoot? What is the use?
+Q11) Why spring provided Starter Dependencies?
+Q12) In Spring AOP with which Advice programmer have a control?
+Q13) Limitations of Dependency Injection.
+Q14) What is Bean Lifecycle?
+Q15) Spring Internationalization.
+Q16) Why spring integrated with AspectJ?
+Q17) How many times the static pointcut matches method will be called?
+Q18) How to work with Spring JDBC?
+Q19) Why Servlet called as Controller in spring?
+Q20) What is Front Controller?
+Q21) What is the reason to create two inject with each other.
+Q22) What is Handler Mapping? What is the purpose of Handler Mapping?
+Q23) How dispatcher servlet know which Handler Mapping its has to go?
+Q24) When we should go for Abstract Wizard Controller?
+Q25) What is the Use of support(Class class) method and validator class of Validator class?
+Q26) what is Handler interceptor?
+Q27) What are all the benefits of Spring ORM?
+Q28) Why Spring security Authenticate Provider will not validate the username and password ?
+Q29) What does my Authenticate manager will do?
+Q30) What is Spring Security?
+Q31) @Bean Annotation in which scenario we will use.
+Q32) What is the difference between Spring non Annotation and Spring Annotation MVC.
+Q33) What is view Resolver? How many types of view Resolvers are there?
+Q34) Spring ORM based on which design pattern it implemented?
+Q35) What is DataSource? What is the implementation spring provided for dataSource?
+Q36) What is NamedParameterJDBCTemplate?
+Q37) Why Bean Factory Removed?
+Q38) How many ways we can break the singleton?
+Q39) Write some points in springAOP and aspectAOP?
+Q40) Spring Security why we need to configure “DelegatingFilterProxy” class must and sould we need to give name as “springSecurityFilterChain”?
+Q41) What is the Spring Security internal Arcitecture flow?
+Q42) What is the Use of @PostConstruct and @PreDestroy annotations?
+Q43) What is Dependency Check in Spring?
+Q44) What is BeanAlias in Spring?
+Q45) How to rectify the “ContextLoaderListener” class not Found Exception wile deploing Application in WebServer.
+Q46) What is the use of BeanPropertySqlParameterSource?
+Q47) What is method Replacement in Spring?
+Q48) What is the use of @Configuration use and wen we will use?
+Q49) What are all the StereoType Annotation Spring provided and which scenario we need to use Which Annotation?
+Q50) What is the Use of RequestMappingHandlerAdapter?
+
+INTERMEDIATE LEVEL
+Q51) How to make scope has prototype?
+Q52) What are the attributes which helps to slove ambiguity problem in constructor dependence Injection?
+Q53) What is mutual dependences?
+Q54) What is depends on attribute?
+Q55) What is the disadvantage of auto wiring?
+Q56) what is the difference between auto wire and @Autowired?
+Q57) How to solve the ambuguity problem when autowire is byType?
+Q58) Spring container creates the objects instand of us we call it?
+Q59) when we call getbean method two times for creating object when scope is default how many objects are created?
+Q60) What is the use of singleton attribute?
+Q61) What is the attribute used for secondary dependency Injection using Xml?
+Q62) Which objects will be created by defalut when we inject list, set and map depedencies by xml?
+Q63) What are the methods present in FactoryBean Interface?
+Q64) What is the use of isSingleton() in FactorBean?
+Q65) How to use look-up depenendence Injection?
+Q66) How to use Initializing and Disposable Bean?
+Q67) What is the use of PropertyPlaceHolderConfiguration class?
+Q68) What is the use of hibernate template?
+Q69) In which the run time exception occurs JDBC or Spring JDBC?
+Q70) In Which data base connection close is mandatory JDBC or Spring JDBC?
+Q71) When we need to go for point-cut?
+Q72) How many command controllers are present?
+Q73) Which method is used to set the data source in jdbc template?
+Q74) What is the use of <context:annotation-config />?
+Q75) What is AutowiredAnnotationBeanPostProcessor?
+Q76) What is the default handler mapping?
+Q77) What are various handler mappings?
+Q78) When to use BeanNameUrlHandlerMapping?
+Q79) What are @PostConstruct and @PreDestroy annotations?
+Q80) When to use After throwing advice?
+Q81) What is spring-boot-starter-parent?
+Q82) What is @SpringBootTest?
+Q83) What is the use of spring-boot-devtools?
+Q84) What are dependencies required in any application to make has JPA application?
+Q85) one of the way for creating spring boot application?
+Q86) what is CrudRepository?
+Q87) How to use CrudRepository?
+Q88) What is the use of Actuator in Springboot?
+Q89) What is the use of application.properties in spring boot?
+Q90) What is H2 in Springboot?
+Q91) what is the default scope?
+Q92) what is the difference between the application context and Bean factor?
+Q93) How to inject arraylist into a class through xml?
+Q94) What are the Spring scopes?
+Q95) Types of stereotype annotation?
+Q96) What is Session scope?
+Q97) What are different types of Autowire?
+Q98) What Is Devtools in Spring Boot?
+Q99) What are types of pointcuts?
+Q100) What are types of Advisors?
+
+HIGH LEVEL
+Q101) List out the major features in the versions of spring framework.
+Q102) Define Spring Framework.
+Q103) Give the advantages of spring framework.
+Q104) List out the different features in spring framework.
+Q105) What is a Spring Configuration File?
+Q106) Define the different components of a spring application?
+Q107) Define the two (2) types of IOC specifies which are present in the spring.
+Q108) Give the differences between bean factory and application context.
+Q109) What are the benefits of IOC?
+Q110) What are the five (5) bean scopes supported by spring?
+Q111) Define Auto Wiring and their modes.
+Q112) Define dependency injection.
+Q113) What are the three ways in which injection dependencies can be done?
+Q114) Give the differences between constructor Injection and Setter Injection.
+Q115) In the spring container, how are the configuration metadata are been provided?
+Q116) What is meant by bean wiring in spring?
+Q117) Give the limitations with auto wiring?
+Q118) Define @RequestMapping annotation?
+Q119) What are the exceptions which are been thrown by the spring DAO classes?
+Q120) What are classes which are present in spring JDBC API?
+Q121) In how many ways spring can be used to access hibernate?
+Q122) What are the two transaction management which spring supports?
+Q123) Define Aspect Oriented Programming?
+Q124) What is joinPoint?
+Q125) What is an Advice?
+Q126) List out the different type of advices.
+Q127) Give the difference between Spring AOP and AspectJ AOP
+Q128) Define Proxy in Spring Framework.
+Q129) Explain term Weaving.
+Q130) Give brief notes on Spring MVC framework
+Q131) What is meant by DispatcherServlet?
+Q132) What are the different AOP implementations?
+Q133) What are the six different ORMs which underpins spring?
+Q134) List out the roles of an IOC Container.
+Q135) Define component scan.
+Q136) Define Dirty Read.
+Q137) What are the features which are now available in spring framework 4.0 and spring framework 0?
+Q138) Explain Front Controller.
+Q139) Explain the concepts which are available in the MVC controller.
+Q140) What is the main configuration of @SpringBootApplication?
+Q141) Explain the role of IOC container in the spring.
+Q142) How are the records fetched by the spring JDBC Template?
+Q143) List some of the AOP Terminologies.
+Q144) Explain ViewResolver in spring.
+Q145) What are the ways to create application context in java program?
+Q146) List out some important spring annotations.
+Q147) How to use the Spring MVC Interceptor?
+Q148) Give the abbreviation for JDO and JPA.
+Q149)  How to perform the component scan for spring boot?
+Q150) What do you understand by @Required annotation?
+
+
+
+
+
+THANK YOU
+ 
+

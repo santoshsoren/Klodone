@@ -103,7 +103,7 @@ BEGIN
                             "CustomTextTypeId",
                             "ForUseByChildren"
                 )       
-				     SELECT "CustomerID",
+                     SELECT "CustomerID",
                             "ParentResellerId",
                             "DisclaimerId",
                             ROW_NUMBER() OVER (ORDER BY "Level" DESC),
@@ -127,7 +127,7 @@ BEGIN
                     (SELECT MAX("Level") FROM tt_Result) + 1 AS "Level",
                             pi_DisclaimerTextTypeId,
                             0
-	                   FROM dbo."Customers" c 
+                       FROM dbo."Customers" c 
                  INNER JOIN dbo."Disclaimer" d 
                          ON d."CustomerId" = c."CustomerID"
                       WHERE "DisclaimerId" = pi_DisclaimerId;
